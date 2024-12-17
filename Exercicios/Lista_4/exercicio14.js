@@ -1,7 +1,7 @@
-const greeting = '   Hello world!   ';
+const remover = '   Hello world!   ';
 
-console.log(greeting);
+console.log(remover);
 // Expected output: "   Hello world!   ";
 
-console.log(greeting.trim());
+console.log(remover.trim());
 // Expected output: "Hello world!";
