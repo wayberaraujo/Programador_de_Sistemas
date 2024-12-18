@@ -4,9 +4,9 @@ var resultado =  n1 ** 2
 return resultado
 
 }
-console.log(2);
-console.log(5);
-console.log(10);
-console.log(0.5);
+console.log(quadrado(2));
+console.log(quadrado(0.5));
+console.log(quadrado(10));
+console.log(quadrado(5));
 
 

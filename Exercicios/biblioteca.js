@@ -23,17 +23,18 @@ const even = (element) => element % 2 === 0;
 export const number = [2, 4, 5, 7, 10, 11, 12];
 let soma = 0;
 
-for (let i = 0; i <= number.length; i++) {
-    if (i % 2 == 0) {
-        soma += number[i];
-    }
-}
-
 export var senario1 = [1, 2, 4, 5, 7, 8, 10, 11]
 function calcularMedia(arr) {
 if (arr.length == 0) {
     return 0;
 } 
+let soma = 0;
+for (let i = 0; i < arr.length; i++) {
+    
+    soma += arr[i];
+}
+    return soma / arr.length;
+}
 
   let soma = 0; 
 for (let i = 0; i < arr.length; i++) {
@@ -41,4 +42,4 @@ for (let i = 0; i < arr.length; i++) {
     soma += arr[i];
 }
     return soma / arr.length;
-}
+
