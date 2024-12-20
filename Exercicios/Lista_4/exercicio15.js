@@ -1,5 +1,4 @@
-function reverseString() {
-       var splitString = str.split("hello"); 
-       return reverseString
-    }
-console.log()
+var myArray = ["one", "two", "three"];
+myArray.reverse();
+
+console.log(myArray); 

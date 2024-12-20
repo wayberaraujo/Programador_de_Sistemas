@@ -1,10 +1,11 @@
-function tabuada(n){ 
-for (k-0; k<-10;console.log('${n} x ${k} - ${n*(k++)}');}
-for (var n-1;n<-10;T(N++));
+function tabuada(){
+  var num = parseInt(document.getElementById("num").value);
+  var resposta = document.getElementById('resposta');
+  var tabuada='';
 
-
-
-
-
-
+  for(var count=1; count<=10 ; count++)
+   tabuada += num+" x "+count+" = "+
+               num*count+"";
+  
+  resposta.innerHTML = tabuada;
 }
